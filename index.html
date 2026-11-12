@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PlainArmor</title>
+<meta name="description" content="See on screen how someone could fake an email from your company, then follow short steps to stop it. For US small businesses.">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<style>
+  :root { --ink:#0b0f19; --body:#374151; --muted:#6b7280; --line:#e5e7eb; --mint:#2dd4bf; --paper:#ffffff; --soft:#f7f8fa; }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--paper); color:var(--body); font:16px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Roboto, Helvetica, Arial, sans-serif; }
+  .wrap { max-width:960px; margin:0 auto; padding:0 20px; }
+  header { border-bottom:1px solid var(--line); }
+  header .wrap { display:flex; align-items:center; justify-content:space-between; min-height:64px; }
+  .brand { display:inline-flex; align-items:center; gap:10px; font-weight:650; font-size:1.15rem; color:var(--ink); text-decoration:none; letter-spacing:-.02em; }
+  .brand svg { width:28px; height:28px; }
+  header a.contact { color:var(--ink); font-weight:600; font-size:.95rem; text-decoration:none; }
+  .hero { padding:72px 0 48px; }
+  h1 { color:var(--ink); font-size:clamp(2rem, 5vw, 3rem); line-height:1.1; letter-spacing:-.03em; margin:0 0 18px; max-width:15em; }
+  .lead { font-size:1.15rem; max-width:36em; margin:0 0 28px; }
+  .cta { display:inline-flex; align-items:center; min-height:48px; padding:0 22px; border-radius:999px; background:var(--ink); color:#fff; font-weight:600; text-decoration:none; }
+  .steps { display:grid; grid-template-columns:repeat(auto-fit, minmax(240px, 1fr)); gap:16px; padding:8px 0 56px; }
+  .step { background:var(--soft); border:1px solid var(--line); border-radius:16px; padding:22px; }
+  .step b { display:block; color:var(--ink); font-size:1.05rem; margin-bottom:6px; }
+  .num { display:inline-flex; width:28px; height:28px; align-items:center; justify-content:center; border-radius:50%; background:var(--mint); color:var(--ink); font-weight:700; font-size:.9rem; margin-bottom:12px; }
+  .facts { border-top:1px solid var(--line); padding:32px 0 48px; display:grid; grid-template-columns:repeat(auto-fit, minmax(220px, 1fr)); gap:20px; }
+  .facts h2 { color:var(--ink); font-size:1rem; margin:0 0 6px; }
+  .facts p { margin:0; }
+  footer { border-top:1px solid var(--line); color:var(--muted); font-size:.9rem; }
+  footer .wrap { padding:24px 20px 40px; display:flex; flex-wrap:wrap; gap:8px 24px; justify-content:space-between; }
+  footer a { color:var(--muted); }
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <a class="brand" href="/">
+      <svg viewBox="0 0 64 64" aria-hidden="true"><path d="M32 2.5L55 11.5v20C55 49.5 42.8 57.8 32 62.5 21.2 57.8 9 49.5 9 31.5v-20L32 2.5Z" fill="#0B0F19"/><path d="M32 12L46.5 18v14c0 7.5-4.2 12.2-10.5 16.2V28H27.5v20.2C21.2 44.2 17 39.5 17 32V18L32 12Z" fill="#2DD4BF"/><path d="M27.5 28h9v22.5L32 56.5 27.5 50.5V28Z" fill="#0B0F19"/></svg>
+      PlainArmor
+    </a>
+    <a class="contact" href="mailto:support@plainarmor.com">Contact</a>
+  </div>
+</header>
+
+<main>
+  <section class="hero wrap">
+    <h1>Stop strangers sending email as your company.</h1>
+    <p class="lead">PlainArmor shows US small businesses, on screen, how someone could fake an email from their company to their bank, clients or staff. Then it gives a short, plain-English plan to close that gap.</p>
+    <a class="cta" href="mailto:support@plainarmor.com?subject=PlainArmor">Talk to us</a>
+  </section>
+
+  <section class="steps wrap" aria-label="How it works">
+    <div class="step"><span class="num">1</span><b>Check your company</b>Enter your company's web address, or the code we sent you.</div>
+    <div class="step"><span class="num">2</span><b>See the risk</b>We show what a fake email from your company could look like. Nothing is ever sent.</div>
+    <div class="step"><span class="num">3</span><b>Close the gap</b>Get a simple step-by-step plan you or your IT person can follow. $199, one time.</div>
+  </section>
+
+  <section class="facts wrap">
+    <div><h2>Price</h2><p>$199 one-time for the plan, in US dollars. No subscription.</p></div>
+    <div><h2>Your systems stay yours</h2><p>We only read public records. We never log in to your accounts or change your settings.</p></div>
+    <div><h2>Contact</h2><p><a href="mailto:support@plainarmor.com">support@plainarmor.com</a></p></div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>PlainArmor by Featherbrooke Inc., San Diego, California. &copy; 2026 Featherbrooke Inc.</span>
+    <span id="verification">Verification code: uv2ECt</span>
+  </div>
+</footer>
+</body>
+</html>
